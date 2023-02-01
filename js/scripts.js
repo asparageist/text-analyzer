@@ -22,3 +22,7 @@ function numberOfOccurrencesInText(word, text) {
   });
   return wordCount;
 }
+
+function watchYourProfanity(word){
+  return 1
+}

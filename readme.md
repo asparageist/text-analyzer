@@ -68,11 +68,10 @@ const word = "Red";
 numberOfOccurrencesInText(word, text);
 Expected Output: 3
 
-Describe: numberOfOccurrencesInText()
+Describe: watchYourProfanity()
 
-Test: "It should return 0 occurrences of a word for an empty string."
+Test: "It should return 1 to recognize if a word is typed"
 Code:
-const text = "";
-const word = "red";
-numberOfOccurrencesInText(word, text);
-Expected Output: 0
+const word = "zoinks";
+watchYourProfanity(word);
+Expected Output: 1
